@@ -1,0 +1,9 @@
+vsphere_folder      = "packer"
+vm_guest_os_family  = "windows"
+vm_guest_os_name    = "server-2022"
+vm_guest_os_version = "std-gui"
+vm_admin_password   = "windows"
+vm_cpu_cores        = 2
+vm_mem_size         = 4096
+vm_firmware         = "efi-secure"
+vm_disk_size        = 40960
