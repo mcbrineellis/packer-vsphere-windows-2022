@@ -76,7 +76,7 @@ variable "vm_disk_size" {
   description = "The size for the virtual disk in MB. (e.g. '40960')"
 }
 
-variable "vm_admin_password" {
-  type    = string
-  description = "Password for admin user created by user-data."
+variable "content_library" {
+  type        = string
+  description = "The name of the content library to put the VM template into.  Must already exist."
 }

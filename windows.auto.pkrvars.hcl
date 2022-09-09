@@ -1,4 +1,5 @@
 vsphere_folder      = "packer"
+content_library     = "Packer"
 vm_guest_os_family  = "windows"
 vm_guest_os_name    = "server-2022"
 vm_guest_os_version = "std-gui"
